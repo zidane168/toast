@@ -1,0 +1,20 @@
+<html>
+    <head> 
+        <title> TOAST </title>
+        
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../asset/css/toast.css" />
+    </head>
+    <body> 
+       
+        <div id="toast"></div>
+        <div class="panel">
+            <div onclick="TOAST.showSucceedToast('Welcome to Learn Tech Tips Blogspot: https://learn-tech-tips.blogspot.com');" class="toast-btn btn--success">Show success toast</div>
+            <div onclick="TOAST.showErrorToast('Login failed!, please try again');" class="toast-btn btn--danger">Show error toast</div>
+            <div onclick="TOAST.showInfoToast('Show profile Information!, This is my information, please share it to your friend');" class="toast-btn btn--info">Show info toast</div>
+            <div onclick="TOAST.showWarningToast('Warning!, This is one exclamation message, Please noted this');" class="toast-btn btn--warning">Show error toast</div>
+        </div>
+        <script src="../asset/js/toast.js"> </script>
+    </body>    
+</html>
+
